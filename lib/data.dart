@@ -40,10 +40,10 @@ List<LanguageData> languagesData = [
 List<TextDesignItemModel> listOfFontScaleData = [
   // Display Start
   TextDesignItemModel(
-    headingText: 'Display Large — 57/68 -1.25',
+    headingText: 'Display Large — 57/68 -1.25 (line height = 74 from 68)',
     bodyText: 'Quick brown fox jumps over a lazy dog',
     fontSize: 57,
-    lineHeight: 68 / 57,
+    lineHeight: 74 / 57,
     letterSpacing: -1.25,
   ),
   TextDesignItemModel(
@@ -54,15 +54,14 @@ List<TextDesignItemModel> listOfFontScaleData = [
     letterSpacing: -1,
   ),
   TextDesignItemModel(
-    headingText: 'Display Small — 36/44  -0.75  0',
+    headingText: 'Display Small — 36/44  -0.75  0 (line height = 46 from 44)',
     bodyText: 'Quick brown fox jumps over a lazy dog',
     fontSize: 36,
-    lineHeight: 44 / 36,
+    lineHeight: 46 / 36,
     letterSpacing: -0.75,
   ),
   // Headline Start
 
-  //
   TextDesignItemModel(
     headingText: 'Headline Large — 32/40  -0.5  0',
     bodyText: 'Quick brown fox jumps over a lazy dog',
@@ -93,20 +92,20 @@ List<TextDesignItemModel> listOfFontScaleData = [
     letterSpacing: 0,
   ),
   TextDesignItemModel(
-    headingText: 'Title Medium — 16/24  +0.15  0',
+    headingText: 'Title Medium — 16/24  +0.15  0 (line height = 20 from 24)',
     bodyText: 'Quick brown fox jumps over a lazy dog',
     fontSize: 16,
-    lineHeight: 24 / 16,
+    lineHeight: 20 / 16,
     letterSpacing: 0.15,
   ),
   TextDesignItemModel(
-    headingText: 'Title Small — 11/16  +0.1  0',
+    headingText: 'Title Small — 12/16  +0.1  0',
     bodyText: 'Quick brown fox jumps over a lazy dog',
-    fontSize: 11,
-    lineHeight: 16 / 11,
+    fontSize: 12,
+    lineHeight: 16 / 12,
     letterSpacing: 0.1,
   ),
-  // Headline Start
+  // Lable Start
   TextDesignItemModel(
     headingText: 'Lable Large — 14/20  +0.1  0',
     bodyText: 'Quick brown fox jumps over a lazy dog',
@@ -122,32 +121,32 @@ List<TextDesignItemModel> listOfFontScaleData = [
     letterSpacing: 0.5,
   ),
   TextDesignItemModel(
-    headingText: 'Lable Small — 11/16  +0.1  0',
+    headingText: 'Lable Small — 12/16  +0.1  0',
     bodyText: 'Quick brown fox jumps over a lazy dog',
-    fontSize: 11,
-    lineHeight: 16 / 11,
+    fontSize: 12,
+    lineHeight: 16 / 12,
     letterSpacing: 0.1,
   ),
   // Body Start
   TextDesignItemModel(
-    headingText: 'Body Large — 16/24  +0.15  +16',
+    headingText: 'Body Large — 16/24  +0.15  +16 (line height = 20 from 24)',
     bodyText: bodyText,
     fontSize: 16,
-    lineHeight: 24 / 16,
+    lineHeight: 20 / 16,
     letterSpacing: 0.15,
   ),
   TextDesignItemModel(
-    headingText: 'Body Medium — 14/20  +0.25  +12',
+    headingText: 'Body Medium — 14/20  +0.25  +12 (line height = 18 from 20)',
     bodyText: bodyText,
     fontSize: 14,
-    lineHeight: 20 / 14,
+    lineHeight: 18 / 14,
     letterSpacing: 0.25,
   ),
   TextDesignItemModel(
-    headingText: 'Body Small — 12/20  +0.25  +8',
+    headingText: 'Body Small — 12/20  +0.25  +8 (line height = 16 from 20)',
     bodyText: bodyText,
     fontSize: 12,
-    lineHeight: 20 / 12,
+    lineHeight: 16 / 12,
     letterSpacing: 0.25,
   ),
 ];

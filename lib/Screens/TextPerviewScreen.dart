@@ -14,6 +14,14 @@ class TextPreviewScreen extends StatefulWidget {
 class _TextPreviewScreenState extends State<TextPreviewScreen> {
   int selectedIndex = 0;
 
+  List<String> appBarTitle = [
+    'Latin',
+    'Kohinoor',
+    'Gujarati',
+    'Telugu',
+    'Bangla',
+  ];
+
   bool otherfontFamily = false;
   bool otherGridLines = false;
 
@@ -80,23 +88,23 @@ class _TextPreviewScreenState extends State<TextPreviewScreen> {
         toolbarHeight: 64,
         backgroundColor: const Color(0xffFFFBFE),
         actions: [
-          Switch(
-            value: otherfontFamily,
-            onChanged: (value) {
-              setState(() {
-                otherfontFamily = value;
-                // isSwitched = value;
-                // print(isSwitched);
-              });
-            },
-            activeTrackColor: Colors.lightGreenAccent,
-            activeColor: Colors.green,
-          ),
+          // Switch(
+          //   value: otherfontFamily,
+          //   onChanged: (value) {
+          //     setState(() {
+          //       otherfontFamily = value;
+          //       // isSwitched = value;
+          //       // print(isSwitched);
+          //     });
+          //   },
+          //   activeTrackColor: Colors.lightGreenAccent,
+          //   activeColor: Colors.green,
+          // ),
         ],
-        title: const Center(
+        title: Center(
           child: Text(
-            'Latin',
-            style: TextStyle(
+            appBarTitle[selectedIndex],
+            style: const TextStyle(
               fontSize: 21,
               height: 0.56, // 1 == 50px
             ),

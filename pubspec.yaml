@@ -86,7 +86,7 @@ flutter:
 
     - family: KohinoorGujarati
       fonts:
-        - asset: fonts/KohinoorGujarati.ttc
+        - asset: fonts/KohinoorGujarati.otf
     
     - family: KohinoorTelugu
       fonts:
